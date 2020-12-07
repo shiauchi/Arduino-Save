@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        },
+        {
+            "name": "Arduino Uno",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/arduino/hardware/arduino/avr/cores/arduino",
+                "D:/arduino/tools/**",
+                "D:/arduino/hardware/arduino/avr/**",
+                "D:/arduino/hardware/tools/**",
+                "D:/arduino/libraries/**",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/LinkIt/hardware/linkit_rtos/0.10.21/cores/**",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/LinkIt/hardware/linkit_rtos/0.10.21/libraries/**"
+            ],
+            "forcedInclude": [
+                "D:/arduino/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ],
+            "defines": [
+                "USBCON",
+                "ARDUINO=10813"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "D:/arduino/hardware/tools/avr/bin/avr-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
